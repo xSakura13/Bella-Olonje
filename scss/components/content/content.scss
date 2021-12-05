@@ -1,0 +1,43 @@
+.content{
+    background: url(../img/Rectangle48.png) no-repeat;
+    background-size: contain;
+    .content_wrapper {
+        color: $color_white;
+        @extend %flex_columm;
+        border-bottom: 3px solid #E4E4E4;
+        h2 {
+            font-size: $text_size_h;
+            font-weight: 700;
+            line-height: 36px;
+            padding: 73px 0 17px;
+        }
+        h1 {
+            font-size: $text_size_o;
+            font-weight: 700;
+            line-height: 80px;
+            text-align: center;
+        }
+        p {
+            font-size: $text_size_h;
+            font-weight: 500;
+            line-height: 38px;
+            padding-bottom: 54px;
+        }
+        .button {
+            @extend %flex;
+            a {
+                font-size: $text_size_h;
+                font-weight: 700;
+                line-height: 36px;
+                color: $color_white;
+                padding: 16px 58px;
+                border: 1px solid #FFFFFF;
+                border-radius: 30px;
+                margin: 0 5px;
+                &:hover {
+                    @include org($color_orange);
+                }
+            }
+        }
+    }
+}

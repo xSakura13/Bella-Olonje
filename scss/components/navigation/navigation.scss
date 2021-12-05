@@ -1,0 +1,33 @@
+.navigation_wrapper {
+    @extend %flex_row;
+    justify-content: space-between;
+    .img {
+        padding: 26px 0 27px 90px;
+    }
+    nav {
+        #check-menu,label {
+            opacity: 0;
+          }
+        ul {
+            @extend %flex;
+            li {
+                padding: 64px 50px;
+                &:hover,
+                &:focus  {
+                    transform: translateY(-0.25em);
+                    a {
+                        color: $color_orange;
+                        box-shadow: 0 0.5em 0.5em -0.4em rgb(255 126 27 / 25%);
+                    }
+                }
+                a {
+                    font-size: $text_size_d;
+                    font-weight: 600;
+                    line-height: 28px;
+                    text-align: center;
+                    color: $color_blue;
+                }
+            }
+        }
+    }
+}

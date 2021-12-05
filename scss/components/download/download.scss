@@ -1,0 +1,37 @@
+.download{
+    background: url(../img/Rectangle47.png) no-repeat;
+    background-size: cover;
+    .download_wrapper {
+        @extend %flex_columm;
+        color: $color_white;
+        h2 {
+            font-size: $text_size_m;
+            font-weight: 700;
+            line-height: 57px;
+            padding: 145px 0 20px 0;
+        }
+        p {
+            font-size: $text_size_h;
+            font-weight: 500;
+            line-height: 38px;
+            padding-bottom: 60px;
+        }
+        .button {
+            @extend %flex;
+            padding-bottom: 131px;
+            a {
+                font-size: $text_size_d;
+                font-weight: 700;
+                line-height: 28px;
+                color: $color_white;
+                padding: 18px 31px;
+                border: 1px solid #FFFFFF;
+                border-radius: 10px;
+                margin: 0 5px;
+                &:hover {
+                    @include org($color_orange);
+                }
+            }
+        }
+    }
+}

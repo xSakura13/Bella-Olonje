@@ -1,0 +1,42 @@
+%flex_center {
+    display: flex;
+    align-items: center;
+}
+%flex_row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+%flex_columm {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+%flex_space {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+%flex {
+    display: flex;
+}
+%red_h{
+    font-size: $text_size_h;
+    font-weight: 700;
+    line-height: 36px;
+    color: $color_orange;
+    padding-bottom: 17px;
+}
+%blue_h{
+    font-size: $text_size_m;
+    font-weight: 700;
+    line-height: 57px;
+    color: $color_blue;
+    padding-bottom: 27px;
+}
+%gray_p{
+    font-size: $text_size_h;
+    font-weight: 500;
+    line-height: 38px;
+    color: $color_grey;
+}

@@ -1,0 +1,65 @@
+@media (max-width:1024px) {
+    .download{
+        .download_wrapper{
+            h2{
+                 font-size: $text_size_l;
+                 padding-top: 50px;
+             }
+             p{
+                 font-size: $text_size_d;
+                 padding-bottom: 50px;
+                 line-height: 30px;
+             }
+             .button{
+                 padding-bottom: 30px;
+                 a{
+                     padding: 12px 25px;
+                 }
+             }
+        }
+    }
+}
+@media (max-width:767px) {
+    .download{
+        .download_wrapper{
+            h2{
+                font-size: $text_size_i;
+                padding-top: 30px;
+                line-height: 40px;
+            }
+            p{
+                font-size: $text_size_c;
+                padding-bottom: 30px;
+                line-height: 20px;
+            }
+            .button{
+                a{
+                    padding: 7px 22px;
+                    font-size: $text_size_b;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:560px) {
+    .download{
+        .download_wrapper{
+            h2{
+                font-size: $text_size_f;
+                line-height: 0px;
+            }
+            p{
+                padding-bottom: 20px;
+                text-align: center;
+            }
+            .button{
+                a{
+                    padding: 5px 20px;
+                    line-height: 15px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

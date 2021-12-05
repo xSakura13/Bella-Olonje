@@ -1,0 +1,16 @@
+body {
+    width: 100%;
+    .container {
+        margin: 0 auto;
+        max-width: 1440px;
+        padding: 0 20px;
+        .img {
+            max-width: 100%;
+            object-fit: cover;
+            height: auto;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+}

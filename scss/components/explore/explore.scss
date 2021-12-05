@@ -1,0 +1,18 @@
+.explore_wrapper {
+    @extend %flex_space;
+    .explore_varieties {
+        width: 40%;
+        h3 {
+            @extend %red_h;
+        }
+        h4 {
+            @extend %blue_h;
+        }
+        p {
+            @extend %gray_p;
+        }
+    }
+    .img {
+        width: 40%;
+    }
+}

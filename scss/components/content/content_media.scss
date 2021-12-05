@@ -1,0 +1,109 @@
+@media (max-width:1280px) {
+    .content{
+        .content_wrapper{
+            h1{
+                font-size: $text_size_n;
+                padding: 0 20px;
+            }
+            h2{
+                padding: 30px 0 10px;
+            }
+            p{
+                padding-bottom: 20px;
+            }
+            .img{
+                    width: 40%;
+            }
+        }
+    }
+}
+@media (max-width:1024px) {
+   .content{
+        .content_wrapper{
+            h2{
+                padding: 10px 0 0 0;
+                font-size: $text_size_f;
+                line-height: 20px;
+            }
+            h1{
+                max-width: 100%;
+                text-align: center;
+                font-size: $text_size_j;
+                line-height: 50px;
+                padding: 0 15px;
+            }
+            p{
+                font-size: $text_size_f;
+            }
+            .button{
+                a{
+                    font-size: $text_size_f;
+                    line-height: 30px;
+                    padding: 10px 40px;
+                    border-radius: 20px;
+                }
+            }
+        }
+   }
+}
+@media (max-width:767px) {
+    .content{
+        .content_wrapper{
+            h2{
+                font-size: $text_size_d;
+            }
+            h1{
+                font-size: $text_size_h;
+                line-height: 40px;
+                padding: 0;
+            }
+            p{
+                font-size: $text_size_d;
+                padding-bottom: 10px;
+            }
+            .button{
+                a{
+                    font-size: $text_size_d;
+                    border-radius: 10px;
+                    padding: 5px 30px;
+                }
+            }
+            .img{
+                width: 35%;
+            }
+        }
+    }
+}
+@media (max-width:560px) {
+    .content{
+        background-size: cover;
+        .content_wrapper{
+            padding-bottom: 30px;
+            border-bottom: none;
+            .img{
+                display: none;
+            }
+            h2{
+                font-size: $text_size_c;
+            }
+            h1{
+                font-size: $text_size_e;
+                line-height: 30px;
+            }
+            p{
+                font-size: $text_size_c;
+                line-height: 25px;
+                text-align: center;
+            }
+            .button{
+                a{
+                    font-size: $text_size_c;
+                    line-height: 20px;
+                    padding: 5px 20px;
+                    border-radius: 5px;
+                }
+            }
+
+        }
+    }
+}

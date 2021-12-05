@@ -1,0 +1,28 @@
+.app_wrapper {
+    padding-top: 72px;
+    .app_content {
+        @extend %flex_space;
+        .create {
+            width: 40%;
+            h3 {
+                @extend %red_h;
+            }
+            h4 {
+                @extend %blue_h;
+            }
+            p {
+                @extend %gray_p;
+            }
+        }
+        .img {
+            width: 40%;
+        }
+    }
+    h2 {
+        font-size: $text_size_n;
+        font-weight: 600;
+        line-height: 36px;
+        padding-bottom: 35px;
+        text-align: center;
+    }
+}
